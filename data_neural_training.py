@@ -22,7 +22,7 @@ else:
     # ...
 
 # Open the PGN file
-pgn = open('ChessDB/chessdb.png')
+pgn = open('ChessDB/chessdb.pgn')
 
 # Count the total number of games in the PGN file
 total_games_pgn = 0
