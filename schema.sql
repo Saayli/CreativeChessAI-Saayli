@@ -2,7 +2,7 @@ CREATE TABLE IF NOT EXISTS games (
   id INT AUTO_INCREMENT PRIMARY KEY,
   event VARCHAR(255),
   site VARCHAR(255),
-  date DATE,
+  date VARCHAR(20),
   round VARCHAR(20),
   white VARCHAR(100),
   black VARCHAR(100),
