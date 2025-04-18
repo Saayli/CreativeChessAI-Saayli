@@ -65,7 +65,7 @@ jobs:
           DB_PASSWORD: root
           DB_NAME: creativechessai
         run: |
-          python main.py
+          python data_neural_training.py
 
   notify:
     name: Notify success
