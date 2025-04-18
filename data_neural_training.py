@@ -9,6 +9,7 @@ creativechessai_db = mysql.connector.connect(**db_config)
 
 #Définition de la taille du batch
 batch_size = 100
+batch_count = 0
 
 # Création d'un curseur pour exécuter des requêtes
 cursor = creativechessai_db.cursor()
