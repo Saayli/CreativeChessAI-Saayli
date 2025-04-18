@@ -7,6 +7,9 @@ from db_config import db_config
 # Connexion à la base de données
 creativechessai_db = mysql.connector.connect(**db_config)
 
+#Définition de la taille du batch
+batch_size = 100
+
 # Création d'un curseur pour exécuter des requêtes
 cursor = creativechessai_db.cursor()
 
